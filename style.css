@@ -98,8 +98,8 @@ ul#player-choice li a, ul#computer-choice li a {
 }
 
 ul#player-choice li a:hover,
-ul#player-choice li a.selecionado, 
-ul#computer-choice li a.selecionado {
+ul#player-choice li a.selected, 
+ul#computer-choice li a.selected {
     opacity: 1;
 }
 
