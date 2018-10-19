@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <h1 id="title">Jokenpo</h1>
+        <div id="score">
+            <div id="player">
+                <h2 id="player-name">Wesley</h2>
+                <span id="player-points">0</span>
+
+                <ul id="player-choice">
+                    <li><a id="player-choice-1" onclick="play(1)"><img src="img/stone.png"></a></li>
+                    <li><a id="player-choice-2" onclick="play(2)"><img src="img/paper.png"></a></li>
+                    <li><a id="player-choice-3" onclick="play(3)"><img src="img/scissors.png"></a></li>
+                </ul>
+            </div>
+
+            <div id="versus">vs</div>
+
+            <div id="computer">
+                <h2 id="computer-name">Computer</h2>
+                <span id="computer-points">0</span>
+
+                <ul id="computer-choice">
+                    <li><a id="computer-choice-1"><img src="img/stone.png"></a></li>
+                    <li><a id="computer-choice-2"><img src="img/paper.png"></a></li>
+                    <li><a id="computer-choice-3"><img src="img/scissors.png"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="message">&nbsp</div>
+    </div>
+
+    <footer>
+        <div id="copyright">
+            Copyright &copy 2018&nbsp-&nbsp<a href="https://github.com/WesGtoX" class="mylink-color" target="_blank">Wesley Mendes</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
